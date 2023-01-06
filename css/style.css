@@ -146,6 +146,47 @@ input:-webkit-autofill:focus {
   margin-right: 56px;
 }
 
+.site-header__sitenav {
+  margin-right: auto;
+}
+
+
+/* SITE-HEADER-CART */
+
+.site-header__cart-link {
+  position: relative;
+  display: flex;
+  color: var(--grey);
+}
+
+.site-header__cart-link:hover {
+  color: var(--black) ;
+}
+
+.site-header__cart-link:active {
+  opacity: 0.8;
+}
+
+.site-header__cart-product-count {
+  position: absolute;
+  left: calc(100% - 13px);
+  top: -6px;
+  padding: 1px 6px;
+  border-radius: 6.5px;
+  font-size: 10px;
+  line-height: normal;
+  font-weight: bold;
+  background-color: var(--orange);
+  color: #fff;
+}
+
+.site-header__cart-icon {
+  width: 22px;
+  height: 20px;
+  object-fit: contain;
+}
+
+
 
 /* SITENAV */
 
@@ -187,6 +228,8 @@ input:-webkit-autofill:focus {
   background-color: var(--orange);
   content: "";
 }
+
+
 
 /* RETINA BACKGROUND IMAGES */
 @media
